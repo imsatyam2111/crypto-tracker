@@ -13,7 +13,7 @@ const SingleCoin = ({ coin }) => {
                     />
                     <h1 className={styles.coin_image}>Name: { coin.name }</h1>   
                     <p className={styles.coin_ticker}>Symbol: { coin.symbol }</p>   
-                    <p className={styles.coin_current}>Current Price: { coin.market_data.current_price.inr }</p>
+                    <p className={styles.coin_current}>Current Price: ₹{ coin.market_data.current_price.inr }</p>
 
                 </div>
             </div>
